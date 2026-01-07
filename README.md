@@ -56,7 +56,7 @@ Screenshots of the website can be found below to provide a visual overview of th
 ## 📸 Website Screenshots
 
 ### Homepage
-![Homepage](1st-Semester-ICT-Project/screenshot
+![Homepage](ICT Project 1st Semester/screenshot
 /index.png)
 
 ### Dresses
