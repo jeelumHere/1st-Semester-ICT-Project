@@ -56,13 +56,14 @@ Screenshots of the website can be found below to provide a visual overview of th
 ## 📸 Website Screenshots
 
 ### Homepage
-![Homepage](screenshots/index.png)
+![Homepage](1st-Semester-ICT-Project/screenshot
+/index.png)
 
 ### Dresses
-![Dress Page](screenshots/dress.png)
+![Dress Page](screenshot/dress.png)
 
 ### Poetry Page
-![Poetry Page](screenshots/oetry.png)
+![Poetry Page](screenshot/oetry.png)
 
 
 
