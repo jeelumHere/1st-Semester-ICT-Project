@@ -50,20 +50,7 @@ This project was developed as part of an **ICT course** to strengthen skills in:
 - Styling using CSS
 - Basic interactivity using JavaScript
 
-## Screenshots
-Screenshots of the website can be found below to provide a visual overview of the project.
 
-## 📸 Website Screenshots
-
-### Homepage
-![Homepage](ICT Project 1st Semester/screenshot
-/index.png)
-
-### Dresses
-![Dress Page](screenshot/dress.png)
-
-### Poetry Page
-![Poetry Page](screenshot/oetry.png)
 
 
 
