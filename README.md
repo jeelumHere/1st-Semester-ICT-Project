@@ -53,9 +53,17 @@ This project was developed as part of an **ICT course** to strengthen skills in:
 ## Screenshots
 Screenshots of the website can be found below to provide a visual overview of the project.
 
-![index](screenshots/index.png)
-![Poetry Page](screenshots/poetry.png)
-![Quiz Page](screenshots/quiz.png)
+## 📸 Website Screenshots
+
+### Homepage
+![Homepage](screenshots/index.png)
+
+### Dresses
+![Dress Page](screenshots/dress.png)
+
+### Poetry Page
+![Poetry Page](screenshots/oetry.png)
+
 
 
 ## How to Run
