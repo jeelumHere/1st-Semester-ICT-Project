@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Text</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Lora", serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: bisque;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #2ecc71, #c06060);;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+        }
+        .welcome{
+            visibility: hidden;
+            animation-name: welcome;
+            animation-duration: 3s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            opacity: 1;
+            transform: translateY(30px);
+        }
+        @keyframes welcome {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+        }
+        .website_name{
+            visibility: hidden;
+            animation-name: website_name;
+            animation-duration: 3s;
+            animation-delay: 3s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            opacity: 1;
+            /* transform: translateY(-60px); */
+        }
+        @keyframes website_name {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+        }
+        .team_members{
+            visibility: hidden;
+            animation-name: team_members;
+            animation-duration: 3s;
+            animation-delay: 6s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            opacity: 1;
+            transform: translateY(-120px);
+        }
+        @keyframes team_members {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+        }
+        .team_members1{
+            visibility: hidden;
+            animation-name: team_members1;
+            animation-duration: 3s;
+            animation-delay: 9s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            opacity: 1;
+            transform: translateY(-120px);
+        }
+        .team_members2{
+            visibility: hidden;
+            animation-name: team_members2;
+            animation-duration: 3s;
+            animation-delay: 12s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            opacity: 1;
+            transform: translateY(-130px);
+        }
+        .team_members3{
+            visibility: hidden;
+            animation-name: team_members3;
+            animation-duration: 3s;
+            animation-delay: 15s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            opacity: 1;
+            transform: translateY(-140px);
+        }
+        @keyframes team_members1 {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+        }
+        @keyframes team_members2 {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+        }
+        @keyframes team_members3 {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+        }
+        .our_website{
+            visibility: hidden;
+            animation-name: our_website;
+            animation-duration: 3s;
+            animation-delay: 18s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            opacity: 1;
+            transform: translateY(-140px);
+        }
+        @keyframes our_website {
+            from{
+                transform: translateY(-300px);
+                visibility: visible;
+                opacity: 0;
+            }
+            to{
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="welcome">Welcome To Our Website</h1>
+    <h1 class="website_name">Culture Of Pakistan</h1>
+    <h1 class="team_members">Group Members</h1>
+    <h1 class="team_members1">Syed Sharjeel Ahmed</h1>
+    <h1 class="team_members2">Husna Kashaf</h1>
+    <h1 class="team_members3">Haya Ema </h1>
+    <h1 class="our_website"><a href="newest animation.html" target="_blank">Culture Of Pakistan</a></h1>
+    
+</body>
+
+</html>

@@ -1,0 +1,911 @@
+/* NAVBAR CODE FOR ARTS AND CRAFTS */
+
+:root {
+    --color1: #0F3D2E;
+    --color2:white;
+}
+
+/* color themes of the front page */
+:root {
+    --main-bacground: #FFEFD5;
+    --container1:  #FFEFD5;
+    --box11-background: #FFEFD5;
+    --box11-heading:#5C3A21;
+    --box11-text:#421f06 ;
+    --box12-background: #FFEFD5;
+    --another-heading:#421f06;
+    --box21-background: white;
+    --box21-heading:#421f06;
+    --box21-text:#421f06;
+    --box22-background: white;
+    --box22-heading:#421f06;
+    --box22-text:#421f06;
+    --box23-background: white;
+    --box23-heading:#421f06;
+    --box23-text:#421f06;
+    --box24-background: white;
+    --box24-heading: #421f06;
+    --box24-text: #421f06;
+}
+
+/* color themes for the second box31 and box32 */
+:root {
+    --container2:#FFEFD5;
+    --box31-background:#deb573;
+    --box32-background:#deb573;
+    --box32-mainheading:#421f06;
+    --box32-sub-heading:#421f06;
+    --box32-text:#421f06;
+}
+
+/* colors themes for the container 3 box41 box42 box411 box412 box413 box414 */
+
+:root {
+    --container3:#FFEFD5;
+    --box4-background:#FFEFD5;
+    --box41-background:#FFEFD5;
+    --box41-main-heading:#421f06;
+    --box41-sub-headings:#421f06;
+    --box41-text:#421f06;
+    --box42-background: white;
+    --box411-background: white;
+    --box411-sub-heading:#421f06;
+    --box412-background: white;
+    --box412-sub-heading:#421f06;
+    --box413-background: white;
+    --box413-sub-heading:#421f06;
+    --box414-background: white;
+    --box414-sub-heading:#421f06;
+
+}
+
+/* colors themes for the container 4 box51 box52 box511 box512 box513 box514 */
+
+:root {
+    --container4:#FFEFD5;
+    --box5-background:#FFEFD5;
+    --box51-background:#FFEFD5;
+    --box51-main-heading:#421f06;
+    --box51-sub-headings:#421f06;
+    --box51-text:#421f06;
+    --box52-background:#FFEFD5;
+    --box511-background: white;
+    --box511-sub-heading:#421f06;
+    --box512-background: white;
+    --box512-sub-heading:#421f06;
+    --box513-background: white;
+    --box513-sub-heading:#421f06;
+    --box514-background: white;
+    --box514-sub-heading: #421f06;
+
+}
+
+/* colors theme for the container 5 for box61 box box622 box621 JavaScript Conataining */
+
+:root{
+    --container5-bacground:#FFEFD5;
+    --box61-main-heading : #421f06;
+    --box61-background :#FFEFD5;
+    --box621-background : #FFEFD5;
+    --box622-bacground :#FFEFD5;
+    --box622-sub-heading :#421f06;
+    --box622-text : #421f06;
+}
+
+/* colors theme for the container 6 for box71 box box722 box721 JavaScript Conataining */
+
+:root{
+    --container6-bacground:#FFEFD5;
+    --box71-main-heading : #421f06;
+    --box71-background : #FFEFD5;
+    --box721-background : #FFEFD5;
+    --box722-bacground : #FFEFD5;
+    --box722-sub-heading :#421f06;
+    --box722-text :#421f06;
+}
+
+/* colors theme for the container 7 for box81 box box822 box821 JavaScript Conataining */
+
+:root{
+    --container7-bacground:#FFEFD5;
+    --box81-main-heading : #421f06;
+    --box81-background : #FFEFD5;
+    --box821-background : #FFEFD5;
+    --box822-bacground : #FFEFD5;
+    --box822-sub-heading : #421f06;
+    --box822-text : #421f06;
+}
+
+/* JAVASCRIPT CSS */
+.thumbnails img {
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Navbar {
+    height: 12vh;
+    background-color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 10px 0px black;
+    /* color: #FFFFFF; */
+}
+
+.Navbar h2 a {
+    text-transform: none;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.Navbar div a {
+    box-sizing: border-box;
+    text-decoration-line: none;
+    text-decoration: none;
+    text-transform: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: var(--color2);
+}
+
+.Navbar img {
+    height: 70px;
+    border-radius: 15px;
+}
+
+.navy {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-right: 100px;
+}
+
+.Logo img {
+    animation-name: Logo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    box-sizing: border-box;
+}
+
+@keyframes Logo {
+    from {
+        opacity: 0.6;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1.5;
+        transform: translateY(0px);
+        box-shadow: 0px 0px 20px 0px;
+        box-sizing: border-box;
+    }
+}
+
+.drop {
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+    /* color: #FFFFFF; */
+    /* visibility: hidden; */
+    opacity: 0;
+    height: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 30px;
+    z-index: 10000000000000;
+}
+
+/* .d {
+            position: relative;
+            top: 12vh;
+        } */
+.drop1 {
+    position: absolute;
+    top: 5vh;
+    left: 38vw;
+}
+
+.drop2 {
+    position: absolute;
+    top: 5vh;
+    left: 45vw;
+}
+
+.drop3 {
+    position: absolute;
+    top: 5vh;
+    left: 52vw;
+}
+
+.drop4 {
+    position: absolute;
+    top: 5vh;
+    left: 59vw;
+}
+
+.drop5 {
+    position: absolute;
+    top: 5vh;
+    left: 66vw;
+}
+
+.drop6 {
+    position: absolute;
+    top: 5vh;
+    left: 72vw;
+}
+
+/* .dress-drop{
+            height: 10vh;
+            border-radius: 20px;
+        } */
+.d a:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+    transition-duration: 1.5s;
+}
+
+.d:hover .festival-drop {
+    background-color: var(--color1);
+    color: var(--color2);
+    opacity: 1;
+    transition-duration: 2s;
+    visibility: visible;
+    width: 12vw;
+    height: 28vh;
+    /* max-height: 20vh; */
+}
+
+.Navbar .Logo img {
+    position: relative;
+    left: -30vw;
+}
+
+.Navbar h2 {
+    width: 10ch;
+    position: relative;
+    left: -5vw;
+    color: #FFFFFF;
+}
+
+.heading h1 {
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    font-size: 35px;
+}
+
+
+
+/* <!--CSS FOR the front look of the web page that includes those small four boxes as welll --> */
+
+.main-background {
+    background-color: var(--main-bacground);
+    height: 150vh;
+}
+
+.box1 {
+    border-radius: 20px;
+    background-color: var(--container1);
+}
+
+.B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    background-color: var(--container1);
+    padding-top: 15vh;
+    height: 130vh;
+    width: 90vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-rows: 3fr 1fr 3fr;
+    z-index: -20;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 30px;
+    column-gap: 20px;
+}
+
+.box2 {
+    margin-top: 30px;
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.box11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--box11-background);
+}
+
+.box11 div {
+    color: var(--box11-text);
+    line-height: 1.3;
+}
+
+.box11 h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--box11-heading);
+}
+
+.box12 {
+    background-color: var(--box12-background);
+    border-radius: 20px;
+}
+
+.box12 img {
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 30px;
+    height: 400px;
+    animation-name: try;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes try {
+    from {
+        transform: translateX(30px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.box21 {
+    color: var(--box21-text);
+    background-color: var(--box21-background);
+}
+
+.box22 {
+    color: var(--box22-text);
+    background-color: var(--box22-background);
+}
+
+.box23 {
+    color: var(--box23-text);
+    background-color: var(--box23-background);
+
+}
+
+.box24 {
+    color: var(--box24-text);
+    background-color: var(--box24-background);
+}
+
+.box21 h2 {
+    color: var(--box21-heading);
+}
+
+.box22 h2 {
+    color: var(--box22-heading);
+}
+
+.box23 h2 {
+    color: var(--box23-heading);
+}
+
+.box24 h2 {
+    color: var(--box24-heading);
+}
+
+.bb {
+    padding: 20px;
+}
+
+.bb img {
+    height: 25vh;
+    border-radius: 20px;
+}
+
+/* .bb img:hover{
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+} */
+.bb:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0px 0px 7px 0px black;
+    transition-duration: 2s;
+    transform: translateY(-10px);
+}
+
+@keyframes img {
+    from {
+        transform: translateY(0px);
+        box-shadow: 0px 0px 0px 0px transparent black;
+    }
+
+    to {
+        /* transform: translateY(-10px); */
+        box-shadow: 0px 0px 7px 0px black;
+    }
+}
+
+.bb h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bb div {
+    line-height: 1.4;
+}
+
+.alg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.alg h1 {
+    color: var(--another-heading);
+}
+
+
+/* css for the container 2 that includes 1 big picture at the left and equally size box on the right with headings sub headings and text */
+
+
+.container2 {
+    height: 100vh;
+    background-color: var(--container2);
+}
+
+.box3 {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.box31 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--box31-background);
+    border-radius: 60px;
+}
+
+.box31 img {
+    height: 50vh;
+    border-radius: 20px;
+    animation-name: img;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+.C {
+    /* border: 1px solid black; */
+}
+
+.box32 {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--box32-background);
+}
+
+.box32 {
+    line-height: 1.3;
+    color: var(--box32-text);
+    border-radius: 60px;
+}
+
+.box32 h1 {
+    margin-bottom: 3vh;
+    font-size: 40px;
+    color: var(--box32-mainheading);
+}
+
+.box32 h2 {
+    margin-top: 5px;
+    color: var(--box32-sub-heading);
+}
+
+.box31:hover {
+    animation-name: img;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.box32:hover {
+    animation-name: img;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+/* container 3 CSS Style */
+
+.container3 {
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 8vh;
+    background-color: var(--container3);
+}
+
+/* .D {
+    border: 1px solid black;
+} */
+
+.box4 {
+    width: 80vw;
+    height: 90%;
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box41 {
+    padding: 10px;
+    color: var(--box41-text);
+    background-color: var(--box41-background);
+}
+
+.box41 h2 {
+    color: var(--box41-sub-headings);
+}
+
+.box41 h1 {
+    color: var(--box41-main-heading);
+}
+
+.box42 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    gap: 20px;
+    padding: 10px;
+    color: var(--box42-background);
+}
+
+.box41 h2 {
+    margin-top: 10px;
+}
+
+.gap {
+    line-height: 1.3;
+}
+
+.flexy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.flexy img {
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.box411 {
+    background-color: var(--box411-background);
+    color: var(--box411-sub-heading);
+}
+
+.box412 {
+    background-color: var(--box412-background);
+    color: var(--box412-sub-heading);
+}
+
+.box413 {
+    background-color: var(--box413-background);
+    color: var(--box413-sub-heading);
+}
+
+.box414 {
+    background-color: var(--box414-background);
+    color: var(--box414-sub-heading);
+}
+
+/* container4 CSS Style */
+
+.container4 {
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 8vh;
+    background-color: var(--container4);
+}
+
+
+.box5 {
+    width: 80vw;
+    height: 90%;
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box51 {
+    padding: 10px;
+    color: var(--box51-text);
+    background-color: var(--box51-background);
+}
+
+.box51 h2 {
+    color: var(--box51-sub-headings);
+}
+
+.box51 h1 {
+    color: var(--box51-main-heading);
+}
+
+.box52 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+    gap: 20px;
+    padding: 10px;
+    color: var(--box52-background);
+}
+
+.box51 h2 {
+    margin-top: 10px;
+}
+
+.gap {
+    line-height: 1.3;
+}
+
+.flexy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.flexy img {
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.box511 {
+    background-color: var(--box511-background);
+    color: var(--box511-sub-heading);
+}
+
+.box512 {
+    background-color: var(--box512-background);
+    color: var(--box512-sub-heading);
+}
+
+.box513 {
+    background-color: var(--box513-background);
+    color: var(--box513-sub-heading);
+}
+
+.box514 {
+    background-color: var(--box514-background);
+    color: var(--box514-sub-heading);
+}
+
+
+/* container5 CSS Style */
+.container5 {
+    height: 100vh;
+    padding-top: 10vh;
+    background-color: var(--container5-bacground);
+}
+
+.box6 {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box61 {
+    text-align: center;
+    background-color: var(--box61-background);
+}
+
+.box61 h1 {
+    font-size: 40px;
+    color: var(--box61-main-heading);
+}
+
+.box62 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box621{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: var(--box621-background);
+}
+.box622{
+    padding: 20px;
+    line-height: 1.3;
+    background-color: var(--box622-bacground);
+    color: var(--box622-text);
+}
+.box622 h2{
+    margin-top: 10px;
+    color: var(--box622-sub-heading);
+}
+.thumbnails img{
+     height: 80px;
+     width: 80px;
+     border-radius: 15px;
+}
+.mainImage{
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+/* container6 CSS Style */
+.container6 {
+    height: 100vh;
+    padding-top: 10vh;
+    background-color: var(--container6-bacground);
+}
+
+.box7 {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box71 {
+    text-align: center;
+    background-color: var(--box71-background);
+}
+
+.box71 h1 {
+    font-size: 40px;
+    color: var(--box71-main-heading);
+}
+
+.box72 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box721{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: var(--box721-background);
+}
+.box722{
+    padding: 20px;
+    line-height: 1.3;
+    background-color: var(--box722-bacground);
+    color: var(--box722-text);
+}
+.box722 h2{
+    margin-top: 10px;
+    color: var(--box722-sub-heading);
+}
+.thumbnails img{
+     height: 80px;
+     width: 80px;
+     border-radius: 15px;
+}
+.mainImage{
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+/* container7 CSS Style */
+.container7 {
+    height: 100vh;
+    padding-top: 10vh;
+    background-color: var(--container7-bacground);
+}
+
+.box8 {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box81 {
+    text-align: center;
+    background-color: var(--box81-background);
+}
+
+.box81 h1 {
+    font-size: 40px;
+    color: var(--box81-main-heading);
+}
+
+.box82 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.box821{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: var(--box821-background);
+}
+.box822{
+    padding: 20px;
+    line-height: 1.3;
+    background-color: var(--box822-bacground);
+    color: var(--box822-text);
+}
+.box822 h2{
+    margin-top: 10px;
+    color: var(--box822-sub-heading);
+}
+.thumbnails img{
+     height: 80px;
+     width: 80px;
+     border-radius: 15px;
+}
+.mainImage{
+    height: 350px;
+    width: 400px;
+    border-radius: 20px;
+}
